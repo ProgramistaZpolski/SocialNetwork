@@ -1,0 +1,17 @@
+body{
+    background-color: #3B4252;
+    color: #E5E9F0;
+    font-family: 'Montserrat', sans-serif;
+}
+input{
+    background-color: #4C566A;
+    color: #ECEFF4;
+    border: none;
+}
+::placeholder{
+    color: #D8DEE9;
+    font-family: 'Montserrat', sans-serif;
+}
+a{
+    color: #ECEFF4;
+}
