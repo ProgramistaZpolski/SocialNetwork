@@ -13,7 +13,7 @@ if(isset($_COOKIE["user"])) {
     $layer4= base64_decode($layer3);
     $layer5= base64_decode($layer4);
     $layer6= base64_decode($layer5);
-    fwrite($submitting, "<center><h2>" . $layer6 . ": " . $text . "</center><br><br>" . $beforesubmit);
+    fwrite($submitting, "<div style='display:flex;justify-content:center;align-items:center;'><img src = 'awatar.png' style = 'height: 30px; width: 30px;' align='left'><h2>" . $layer6 . ": " . $text . "</div><br><br>" . $beforesubmit);
     echo "<meta http-equiv='refresh' content='0; url=index.html'>";
 } else {
     // This will occur when user isn't logged in.
